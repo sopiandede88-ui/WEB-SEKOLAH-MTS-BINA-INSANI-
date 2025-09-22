@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MTs Bina Insani - Situs Resmi</title>
+  <meta name="description" content="Situs resmi MTs Bina Insani - Informasi, Penerimaan Siswa, Berita, Galeri" />
+  <style>
+    :root{--primary:#0b5ed7;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;color:#111}
+    header{background:linear-gradient(90deg, rgba(11,94,215,0.95), rgba(15,126,255,0.9)); color:white; padding:20px 16px}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand img{width:56px;height:56px;border-radius:8px;background:white;padding:6px}
+    nav{margin-left:auto}
+    .navlinks{display:flex;gap:12px;list-style:none;padding:0;margin:0}
+    .navlinks a{color:white;text-decoration:none;font-weight:600}
+    .hero{display:flex;gap:24px;align-items:center;padding:48px 0}
+    .hero h1{font-size:28px;margin:0}
+    .btn{display:inline-block;padding:10px 16px;background:var(--primary);color:white;border-radius:8px;text-decoration:none;font-weight:600}
+    .card{background:white;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.06);padding:18px}
+    section{padding:36px 0}
+    .grid{display:grid;gap:16px}
+    .grid-3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+    footer{background:#0f1724;color:#cbd5e1;padding:24px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.12)}
+    /* responsive */
+    @media(max-width:800px){.hero{flex-direction:column;text-align:center}.navlinks{display:none}}
+    /* simple form */
+    input,textarea,select{width:100%;padding:10px;border:1px solid #e6e9ee;border-radius:8px;margin-top:8px}
+    label{font-weight:600;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;align-items:center">
+      <div class="brand">
+        <img alt="Logo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='64'><rect width='64' height='64' rx='10' fill='%230b5ed7'/><text x='50%' y='55%' font-size='28' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle'>MI</text></svg>" />
+        <div>
+          <div style="font-weight:800">MTs Bina Insani</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.9)">Madrasah Terdepan — Cerdas & Berakhlak</div>
+        </div>
+      </div>
+      <nav>
+        <ul class="navlinks">
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#ppdb">PPDB</a></li>
+          <li><a href="#berita">Berita</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div style="flex:1">
+        <h1>Selamat datang di MTs Bina Insani</h1>
+        <p style="color:var(--muted);margin-top:8px">Membangun generasi cerdas, kreatif, dan berakhlak melalui pendidikan holistik berlandaskan nilai Islam.</p>
+        <p style="margin-top:16px"><a class="btn" href="#ppdb">Daftar Sekarang</a></p>
+      </div>
+      <div style="width:360px">
+        <div class="card">
+          <h3 style="margin:0 0 8px 0">Informasi Singkat</h3>
+          <p style="color:var(--muted);margin:0 0 12px 0">Alamat: Jl. Contoh No.1 — Telp: (021) 123-4567</p>
+          <p style="margin:0"><strong>Jam Pelayanan</strong><br/>Senin–Jumat: 07.30–15.30</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="card">
+        <h2>Tentang Kami</h2>
+        <p>MTs Bina Insani berdiri untuk memberikan pendidikan berkualitas yang mengintegrasikan kurikulum nasional dan nilai-nilai keislaman. Kami fokus pada pengembangan akademik, karakter, dan keterampilan abad 21.</p>
+      </div>
+    </section>
+
+    <section id="program">
+      <h2>Program Unggulan</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Akademik</h3>
+          <p>Pengajaran terstruktur, guru berkompeten, dan dukungan remedial serta pengayaan.</p>
+        </div>
+        <div class="card">
+          <h3>Ekstrakurikuler</h3>
+          <p>Pramuka, UKS, olahraga, seni, kelompok tahfidz, dan klub sains.</p>
+        </div>
+        <div class="card">
+          <h3>Penguatan Karakter</h3>
+          <p>Pembiasaan nilai dan kegiatan pembelajaran berbasis proyek serta pengabdian masyarakat.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="berita">
+      <h2>Berita & Pengumuman</h2>
+      <div class="grid grid-3">
+        <div class="card"><h4>Pengumuman Ujian Semester</h4><p style="color:var(--muted)">Ujian akan dilaksanakan pada 10–15 Oktober. Persiapkan diri dengan baik.</p></div>
+        <div class="card"><h4>Kelulusan Tahfidz</h4><p style="color:var(--muted)">Selamat kepada siswa yang telah menyelesaikan hafalan 5 juz.</p></div>
+        <div class="card"><h4>Pendaftaran PPDB Dibuka</h4><p style="color:var(--muted)">Pendaftaran siswa baru dibuka mulai 1 Mei — 31 Juli.</p></div>
+      </div>
+    </section>
+
+    <section id="ppdb">
+      <h2>Penerimaan Peserta Didik Baru (PPDB)</h2>
+      <div class="card">
+        <p>Isi formulir pendaftaran singkat di bawah ini. Nantinya data akan diverifikasi oleh pihak sekolah.</p>
+        <form onsubmit="event.preventDefault();alert('Terima kasih! Data pendaftaran terkirim (demo)')">
+          <label>Nama Lengkap<input required placeholder="Nama siswa"/></label>
+          <label>Tempat/Tgl Lahir<input required placeholder="Contoh: Jakarta, 1 Januari 2012"/></label>
+          <label>Alamat<textarea rows="3" placeholder="Alamat lengkap"></textarea></label>
+          <label>Asal Sekolah<input placeholder="SD/MI asal"/></label>
+          <label>Nomor HP/Wa<input placeholder="08xxxx"/></label>
+          <p style="margin-top:12px"><button class="btn" type="submit">Kirim Pendaftaran</button></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <h4>Alamat</h4>
+          <p>Jl. Contoh No.1, Kecamatan Contoh — Kabupaten Contoh</p>
+        </div>
+        <div class="card">
+          <h4>Telepon</h4>
+          <p>(021) 123-4567</p>
+        </div>
+        <div class="card">
+          <h4>Email</h4>
+          <p>info@mtsbinainsani.sch.id</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+      <div>
+        <strong>MTs Bina Insani</strong>
+        <div style="font-size:13px;color:#94a3b8">© 2025 MTs Bina Insani. Semua hak cipta dilindungi.</div>
+      </div>
+      <div style="font-size:13px;color:#94a3b8">Dibuat dengan ❤️ • Template gratis</div>
+    </div>
+  </footer>
+
+</body>
+</html>
